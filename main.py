@@ -16,7 +16,7 @@ import cufflinks as cf
 import scipy.stats as stats
 
 st.set_page_config(page_title="DATA ANALYSIS ON ANDRIOD APP DATASET", page_icon="🏥", layout="wide")
-img = ("Images\img_1.jpg")
+img = "Images\img_1.jpg"
 st.sidebar.image(img, width=200)
 
 @st.cache
