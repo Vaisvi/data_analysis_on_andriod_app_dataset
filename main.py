@@ -16,7 +16,7 @@ import cufflinks as cf
 import scipy.stats as stats
 
 st.set_page_config(page_title="DATA ANALYSIS ON ANDRIOD APP DATASET", page_icon="🏥", layout="wide")
-st.sidebar.image("Images\img_1.jpg", width=200)
+st.sidebar.image("Images/img_1.jpg", width=200)
 
 @st.cache
 def load_data():
@@ -86,7 +86,7 @@ def home(title):
                 unsafe_allow_html=True)
     col1, col2 = st.beta_columns([5, 10])
     with col1:
-        st.image('Images\Gif_1.gif', use_column_width=True)
+        st.image('Images/Gif_1.gif', use_column_width=True)
     with col2:
         col = st.beta_container()
         with col:
